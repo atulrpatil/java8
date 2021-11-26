@@ -11,7 +11,7 @@ class Armstrong {
      * Java 8 / Lambda approach to generate Armstrong number.
      * Armstrong always start to look from number 1.
      * @param series Number of how many Armstrong number should be generated
-     * @return List holding resulting Armstrong number.
+     * @return List holding resulting Armstrong number 1234.
      */
     public static List<Integer> generate(int series) {
         return Stream.iterate(1, i -> ++i)
@@ -25,8 +25,11 @@ class Armstrong {
     }
 
     public static void main(String[] args) {
+         System.out.println("1234");
         List<Integer> generate = Armstrong.generate(6);
         System.out.println(generate);
+
          System.out.println(generate);
+
     }
 }
