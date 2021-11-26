@@ -33,7 +33,7 @@ public class AnagramString {
 
 	public static void main(String args[]) {
 
-		System.out.println(isAngram("army", "mary"));
+		//System.out.println(isAngram("army", "mary"));
 		System.out.println(isAngram("Mother In Law", "Hitler Woman"));
 		System.out.println(isAngram("army", null));
 		System.out.println(isAngram("", "mary"));
