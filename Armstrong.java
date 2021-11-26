@@ -28,5 +28,6 @@ class Armstrong {
          System.out.println("1234");
         List<Integer> generate = Armstrong.generate(6);
         System.out.println(generate);
+        System.out.println(generate);
     }
 }
