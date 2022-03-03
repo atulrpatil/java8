@@ -1,7 +1,7 @@
 package com.atul.patil.java8;
 
 import java.util.Arrays;
-
+//change from Suhas
 public class AnagramString {
 
 	static boolean isAngram(String str1, String str2) {
